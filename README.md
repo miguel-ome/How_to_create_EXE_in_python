@@ -16,7 +16,7 @@ Seu projeto deve conter:
 🚀 ETAPA 1 – CRIAR O EXECUTÁVEL
 Abra o terminal na pasta do projeto e execute:
 
-pyinstaller --noconfirm --onefile --windowed   --add-data "clientes.xlsx;."   --icon=acordo.ico   main.py
+python -m PyInstaller --noconfirm --onefile --windowed --add-data "clientes.xlsx;." --icon=logo.ico main.py
 
 📝 Detalhes:
 - `--noconfirm`: sobrescreve sem perguntar
